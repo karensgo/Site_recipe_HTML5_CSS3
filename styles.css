@@ -1,0 +1,114 @@
+* {
+  width: 883px;
+  top: 0;
+  left: 0;
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+  opacity: 1;
+}
+
+link {
+  display: flex;
+}
+
+.firstSection img {
+  width: 883px;
+  height: 374px;
+  border: 1px solid #707070;
+  opacity: 1;
+}
+
+.firstSection h1 {
+  text-align: left;
+  font-size: 89px;
+  line-height: 79px;
+  font-weight: 900;
+  color: #ffb300;
+  opacity: 1;
+}
+
+.recipeAuthor {
+  text-align: right;
+  color: #000000;
+  opacity: 1;
+  font-weight: 700;
+  font-size: 21px;
+}
+
+.recipeDescription p {
+  text-align: left;
+  color: #000000;
+  opacity: 1;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.6;
+  font-size: 21px;
+}
+
+hr:empty {
+  height: 5px;
+  width: 100%;
+  background-color: #999999;
+  margin: 34px 0 34px;
+  border: none;
+}
+
+.recipeInfo p {
+  font-weight: 500;
+}
+
+.recipeInfo p strong {
+  font-weight: 900;
+}
+
+.recipeIngredients h1 {
+  color: #ffb300;
+  font-size: 34px;
+  font-weight: 900;
+}
+
+ul > li {
+  font-weight: 600;
+  font-size: 21px;
+  color: #000000;
+  opacity: 1;
+  line-height: 1.5;
+}
+
+.recipePreparation h1 {
+  color: #ffb300;
+  font-size: 34px;
+  font-weight: 900;
+}
+
+ol > li {
+  font-weight: 600;
+  font-size: 21px;
+  color: #000000;
+  opacity: 1;
+  line-height: 1.5;
+}
+
+.recipeVideo h1 {
+  color: #ffb300;
+  font-size: 34px;
+  font-weight: 900;
+}
+
+.recipeVideo iframe {
+  border: 1px solid #707070;
+  opacity: 1;
+  width: 883px;
+  height: 497px;
+  padding-bottom: 5px;
+}
+
+a {
+  font-size: 21px;
+  font-weight: 900;
+  padding-top: 26px;
+  text-decoration: underline;
+  position: relative;
+  top: 26.3px;
+  bottom: 26px;
+}
